@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mines-vs-Treasure - Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body dir="auto">
+  <div class="game-container">
+    <div class="hud">
+      <p id="playerNameDisplay"></p>
+      <p id="attemptsDisplay">Attempts left: 10</p>
+      <p id="bombChancesDisplay"></p>
+    </div>
+    <div id="messageDisplay"></div>
+
+    <div class="grid">
+       
+    </div>
+    <div class="button-container">
+      <button id="homeButton" class="button">Home</button>
+      <button id="quitButton" class="button">Quit</button>
+      <button id="restartButton" class="button" style="display: none;">Restart</button>
+
+  
+    </div>
+  </div>
+  <script src="game.js"></script>
+
+  
+
+<audio id="clickSound">
+  <source src="click.mp3" type="audio/mp3">
+</audio>
+</div>
+
+<audio id="winSound">
+  <source src="win.mp3" type="audio/mp3">
+</audio>
+<audio id="loseSound">
+  <source src="lose.mp3" type="audio/mp3">
+</audio>
+
+
+
+<div class="footer">
+
+  <p>&copy;  2025 2024 Student work: Hamdi Luqmani.All rights reserved to me Hamdi Luqmani</p>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Mines-vs-Treasure-Game Over</title>
+  
+</head>
+<body dir="auto">
+  <div class="end-container">
+           <h1 class="h1">Game Over</h1>
+    <h2>Thank you for playing!</h2>
+    <p>We hope you enjoyed the game.</p>
+    <button onclick="window.location.href='home.html'">Play Again</button>
+  </div>
+
+  <div class="footer">
+
+    <p>&copy; 2025 2024 Student work: Hamdi Luqmani.All rights reserved to me Hamdi Luqmani</p>
+  </div>
+
+  <style>
+
+body {
+  background-image: linear-gradient(37deg, rgb(32, 218, 233),rgb(40, 21, 236));
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+}
+
+.end-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.end-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #00e1ff;
+  color: #000000;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.end-container button:hover {
+    background-color: #00f2ffc2;
+    scale:1.1
+}
+
+.h1{
+  color: red;
+} 
+
+
+.footer  {
+  background-color:#000000;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+
+  
+}
+.footer p {
+  margin: 1;
+}
+
+  </style>
+</body>
+</html>

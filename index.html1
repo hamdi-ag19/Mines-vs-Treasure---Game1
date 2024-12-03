@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mines-vs-Treasure - Home</title>
+  <link rel="stylesheet" href="Home.css">
+</head>
+<body dir="auto">
+  <div class="home-container">
+    <h1>Welcome to Mines-vs-Treasure</h1>
+    <form id="gameForm" class="gameForm">
+     
+      <input type="text" id="playerNameInput" name="playerName"placeholder="Enter your name" required autofocus>
+      <br>
+      <div class="level-selection">
+        <p>Select game level:</p>
+        <button type="button" id="easyButton" class="level-button">Easy <br><br>   is chosen you <br>will get (20) attempts  And <br>you'll get (three(3)chances)<br> in bombs before the Waist.</button>
+        <button type="button" id="hardButton" class="level-button">Hard <br> <br>  is chosen you <br>will get (10) attempts  And <br>you'll get (one(1)chances)<br> in bombs before the Waist.</button>
+      </div>
+      <input type="hidden" id="gameLevel" name="gameLevel" value="easy">
+
+      <br><br></br>
+      <button type="submit" class="button" id="startGameButton"  >Start Game</button>
+    
+    </form>
+  </div>
+
+  <audio id="bgMusic" src="dackground.mp3" loop></audio>
+
+  <script src="Home.js"></script>
+
+  <div class="footer">
+
+    <p>&copy; 2025 2024 Student work: Hamdi Luqmani. All rights reserved to me . Hamdi Luqmani </p>
+    
+    <h4>Hamdi Luqmani,;       
+      Hassan Al Balushi,;
+      Atef Al Omari,;
+
+    </h4>
+  </div>
+</body>
+</html>
+
